@@ -1,0 +1,16 @@
+.tab-list li{
+  display: inline-block;
+  border: solid black;
+    border-bottom: none;
+    padding:.5em;
+    margin: 1em;
+    border-radius: 12px 12px;
+}
+.tab-list li a{
+  text-decoration: none;
+}
+
+.tab-list li a:focus{
+  background-color: rgb(89, 18, 203);
+  color: bisque;
+}
